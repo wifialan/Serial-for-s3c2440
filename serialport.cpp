@@ -15,8 +15,8 @@ serialport::serialport(QWidget *parent) :
     ui->pushButton_disconnect->setEnabled(false);
     ui->pushButton_send->setEnabled(true);
     ui->comboBox_serialPortDevice->setCurrentIndex(0);
-    ui->comboBox_baudRate->setCurrentIndex(CONFIG_BAUDRATE_19200_INDEX);
-    ui->comboBox_dataBit->setCurrentIndex(CONFIG_DATABITS_7_INDEX);
+    ui->comboBox_baudRate->setCurrentIndex(CONFIG_BAUDRATE_115200_INDEX);
+    ui->comboBox_dataBit->setCurrentIndex(CONFIG_DATABITS_8_INDEX);
     ui->comboBox_parityBit->setCurrentIndex(CONFIG_PARITY_NONE_INDEX);
     ui->comboBox_stopBit->setCurrentIndex(CONFIG_STOPBIT_ONE_INDEX);
 
